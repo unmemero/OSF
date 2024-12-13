@@ -18,3 +18,6 @@ commit:
 	@read -p "Enter commit message: " message; \
 	git add .; \
 	git commit -m "$$message"
+
+test:
+	chmod +x tester.sh && ./tester.sh
